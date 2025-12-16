@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Fundo uniforme */
+    color: #333;
+    padding: 20px;
+    text-align: center; /* Centraliza cabeçalhos e links */
+}
+
+/* Cabeçalhos */
+h2 {
+    color: #004080; /* Azul escuro uniforme */
+    margin-bottom: 20px;
+}
+
+/* Formulários */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 0 auto 20px auto; /* Centraliza */
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* mantém os labels alinhados à esquerda dentro do form */
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #004080;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00264d;
+}
+
+/* Tabelas */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin: 20px auto; /* Centraliza tabela */
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #004080;
+    color: #ffffff;
+}
+
+table tr:nth-child(even) {
+    background-color: #e6f0ff;
+}
+
+/* Links */
+a {
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.voltar, a.devolver {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+/* Mensagens de aviso */
+.mensagem {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.sucesso {
+    background-color: #004080;
+}
+
+.erro {
+    background-color: #cc0000;
+}
